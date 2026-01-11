@@ -1,0 +1,83 @@
+body {
+  background-color: lightgray;
+  height: 100%;
+}
+.brand {
+  display: flex;
+  font-size: 60px;
+  color: red;
+  font-weight: bold;
+  width: 100vw;
+  margin: 25px;
+  height: auto;
+}
+header {
+  display: flex;
+}
+.button {
+  color: white;
+  background-color: darkgreen;
+  padding: 10px;
+
+  position: relative;
+}
+
+nav {
+  position: relative;
+  top: 0px;
+  right: 0;
+  width: 100vw;
+  padding: 25px;
+  margin: 10px;
+  gap: 15px;
+  font-size: 25px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 35px;
+  color: darkgreen;
+  position: relative;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 200px;
+}
+.tabs {
+  color: white;
+  background-color: darkgreen;
+  padding: 10px;
+}
+article {
+  display: flex;
+  flex-direction: column;
+  width: 900px;
+  height: 100vh;
+  bottom: 480px;
+  position: relative;
+  left: 250px;
+  margin: 45px;
+  font-size: 20px;
+}
+#header {
+  font-size: 40px;
+  font-weight: bold;
+}
+.testimonial {
+  background-color: darkgreen;
+  padding: 10px;
+  margin: 0;
+  display: flex;
+}
+footer {
+  display: flex;
+  flex-direction: row;
+  margin-top: -700px;
+  bottom: 0;
+  justify-content: center;
+  background-color: darkgreen;
+}
